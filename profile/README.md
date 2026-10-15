@@ -6,11 +6,11 @@ lives in its own repository, with the commands to reproduce every figure.
 
 ## Lectures
 
-| Week | Topic | Repository |
-| --- | --- | --- |
-| 4 | Regression and classification | [regression](https://github.com/AI-Experimental-Design/regression) |
-| 6 | Neural networks | [neural-networks](https://github.com/AI-Experimental-Design/neural-networks) |
-| 6 | Convolution | [convolution](https://github.com/AI-Experimental-Design/convolution) |
+| Topic | Repository |
+| --- | --- |
+| Regression and classification | [regression](https://github.com/AI-Experimental-Design/regression) |
+| Neural networks | [neural-networks](https://github.com/AI-Experimental-Design/neural-networks) |
+| Convolution | [convolution](https://github.com/AI-Experimental-Design/convolution) |
 
 ## Study tools
 
