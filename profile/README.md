@@ -17,10 +17,3 @@ lives in its own repository, with the commands to reproduce every figure.
 | Resource | Repository |
 | --- | --- |
 | Flashcards | [flashcards](https://github.com/AI-Experimental-Design/flashcards) |
-
-## Course website
-
-| Resource | Link |
-| --- | --- |
-| Website | [ai-experimental-design.github.io](https://ai-experimental-design.github.io) |
-| Website source | [AI-Experimental-Design.github.io](https://github.com/AI-Experimental-Design/AI-Experimental-Design.github.io) |
