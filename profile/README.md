@@ -1,14 +1,16 @@
 # AI-Integrated Experimental Design
 
-Course materials for AI-Integrated Experimental Design.
+Course materials for AI-Integrated Experimental Design, a graduate course at
+CU Boulder on using predictive models as scientific instruments. Each lecture
+lives in its own repository, with the commands to reproduce every figure.
 
 ## Lectures
 
-| Topic | Repository |
-| --- | --- |
-| Linear Regression | [linear-regression](https://github.com/AI-Experimental-Design/linear-regression) |
-| Neural Networks | [neural-networks](https://github.com/AI-Experimental-Design/neural-networks) |
-| Convolution | [convolution](https://github.com/AI-Experimental-Design/convolution) |
+| Week | Topic | Repository |
+| --- | --- | --- |
+| 4 | Regression and classification | [regression](https://github.com/AI-Experimental-Design/regression) |
+| 6 | Neural networks | [neural-networks](https://github.com/AI-Experimental-Design/neural-networks) |
+| 6 | Convolution | [convolution](https://github.com/AI-Experimental-Design/convolution) |
 
 ## Study tools
 
@@ -18,6 +20,7 @@ Course materials for AI-Integrated Experimental Design.
 
 ## Course website
 
-| Resource | Repository |
+| Resource | Link |
 | --- | --- |
+| Website | [ai-experimental-design.github.io](https://ai-experimental-design.github.io) |
 | Website source | [AI-Experimental-Design.github.io](https://github.com/AI-Experimental-Design/AI-Experimental-Design.github.io) |
