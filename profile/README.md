@@ -31,3 +31,56 @@ experiments. Examples come from genetics and animal communication.
 | Resource | Repository |
 | --- | --- |
 | Flashcards | [flashcards](https://github.com/AI-Experimental-Design/flashcards) |
+
+## Setup
+
+Lecture code runs in a software environment managed with
+[micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html).
+
+### 1. Install micromamba
+
+On macOS or Linux, run this in a terminal and accept the defaults.
+
+```
+"${SHELL}" <(curl -L micro.mamba.pm/install.sh)
+```
+
+On Windows, first install WSL by running `wsl --install` in PowerShell, then
+restart and open the Ubuntu app. Run the command above inside Ubuntu, and do
+all course work there. Some course packages (pysam and snakemake) have no
+native Windows builds.
+
+Close and reopen the terminal when the install finishes.
+
+### 2. Create the environment
+
+Download the environment file and build the environment. This takes a few
+minutes the first time.
+
+```
+curl -O https://raw.githubusercontent.com/AI-Experimental-Design/.github/main/environment.yml
+micromamba create -f environment.yml
+```    
+
+### 3. Activate it
+
+Activate the environment each time you open a new terminal for class work.
+
+```
+micromamba activate ai4ed
+```
+
+To check that everything installed, run
+
+```
+python -c "import numpy, matplotlib, torch, pysam; print('ready')"
+```
+
+### Updating
+
+If the environment file changes during the semester, download it again and run
+
+```
+micromamba env update -f environment.yml --prune
+```
+
