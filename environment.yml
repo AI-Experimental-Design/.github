@@ -1,0 +1,40 @@
+# Environment for AI-Integrated Experimental Design (AI4ED).
+#
+# Create it once and activate it before each class.
+#
+#   micromamba create -f environment.yml
+#   micromamba activate ai4ed
+#
+# Everything runs on a laptop CPU. No GPU is needed.
+#
+# pysam and snakemake come from bioconda, which has no native Windows
+# builds. Windows users should install micromamba inside WSL (Ubuntu) and
+# create the environment there.
+
+name: ai4ed
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+
+  # every lecture
+  - numpy>=1.26
+  - matplotlib>=3.8
+
+  # weeks 6 to 10, neural networks, convolution, embeddings, attention,
+  # fine-tuning, model failure. conda-forge picks the CPU build on machines
+  # without an NVIDIA GPU.
+  - pytorch>=2.1
+
+  # week 6 DNA convolution, reading the yeast genome FASTA
+  - pysam>=0.22
+
+  # weeks 4 and 6, csvcut, csvgrep and csvformat in the lesson commands
+  - csvkit
+
+  # week 6 image convolution, the Snakefile
+  - snakemake-minimal>=8
+
+  # handy for working through the lessons
+  - git
